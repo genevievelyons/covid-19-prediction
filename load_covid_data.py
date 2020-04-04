@@ -61,7 +61,9 @@ for col in confirmed.columns[11:]:
     df["date"] = col
     data = pd.concat([data, df], axis = 0, sort = False)
 
+#Names
 data.columns = map(str.lower, data.columns)
+data.rename(columns = {'admin2':'county'})
 
 #Data types
 data['date'] = pd.to_datetime(data['date'])
