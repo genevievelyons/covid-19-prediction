@@ -87,6 +87,6 @@ np.sum(data[(data.combined_key.str[0:10] != 'Unassigned') & (data.date > '3/22/2
 data.to_csv('covid-19-prediction/data/covid_data.csv', index = False)
 
 #Push to git
-g.push()
+#g.push()
 
 ##
