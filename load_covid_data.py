@@ -12,12 +12,12 @@ Created on Sat Apr  4 10:34:08 2020
 import numpy as np
 import pandas as pd
 import git 
-#import os
+#import os 
 
 pd.set_option('display.max_columns', None)
 
 ################
-## Pull from Git Repos
+## Pull from Git Repos 
 ################
 
 #pwd
@@ -89,4 +89,3 @@ data.to_csv('covid-19-prediction/data/covid_data.csv', index = False)
 #Push to git
 #g.push()
 
-##
