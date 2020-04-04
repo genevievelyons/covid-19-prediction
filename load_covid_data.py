@@ -12,7 +12,7 @@ Created on Sat Apr  4 10:34:08 2020
 import numpy as np
 import pandas as pd
 import git 
-import os
+#import os
 
 pd.set_option('display.max_columns', None)
 
@@ -21,7 +21,7 @@ pd.set_option('display.max_columns', None)
 ################
 
 #pwd
-os.chdir("AC209B - Data Science II/Final Project")
+#os.chdir("AC209B - Data Science II/Final Project/")
 
 #Update the data
 git_dir = 'COVID-19/'
