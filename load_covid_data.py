@@ -63,7 +63,7 @@ for col in confirmed.columns[11:]:
 
 #Names
 data.columns = map(str.lower, data.columns)
-data.rename(columns = {'admin2':'county'})
+data.rename(columns = {'admin2':'county'}, inplace = True)
 
 #Data types
 data['date'] = pd.to_datetime(data['date'])
