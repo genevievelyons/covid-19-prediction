@@ -1,16 +1,10 @@
-# covid-19-prediction
+# Detecting COVID-19  in Lung CT Scans
 
-## To update the data
+## Genevieve Lyons, Amita Varma, Rebecca Youngerman
 
-1. Clone this repository (`covid-19-prediction`) and the 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE (https://github.com/CSSEGISandData/COVID-19) to the same directory. 
+## Harvard T.H. Chan School of Public Health
 
-2. Navigate to the directory that contains the two repositories and execute the load script: 
+In this repo, we train a deep convolutional neural network to detect COVID-19 from lung CT scans. 
 
-`./covid-19-prediction/load_covid_data.py`
-
-This script will pull from both repos, load the data, manipulate it, and update the data file in the `covid-19-prediction` repo.
-
-3. Push to this repo by executing the following:
-
-`cd covid-19-prediction/; git add *; git commit -m "data update"; git push`
+Please see `code/COVID_Lung_CT_Classification_Final.ipynb` for more information and methods. `code/models` contains trained model weights. You can see a video on this project [here](https://harvard.zoom.us/rec/share/291bbJ2p2kJJBY3z7BqFYfM5QtXgeaa803Mb86ZYyx6bEjtVwT-I2jd35Gyqww6Y?startTime=1589037429000).
 
